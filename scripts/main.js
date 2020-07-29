@@ -4,7 +4,7 @@ import { capitalize } from './capitalize.js';
 import { friendlyFetch } from './data.js';
 
 
-// pega todos os elementos HTML que serão necessários
+// aqui pega todos os elementos HTML que serão necessários
 const listEl = document.querySelector('#list');
 const detailEl = document.querySelector('#detail-section');
 const bodyEl = document.querySelector('body');
@@ -17,7 +17,7 @@ const detailWeightEl = detailEl.querySelector('#detail-weight');
 const detailHeightEl = detailEl.querySelector('#detail-height');
 const detailTypesEl = detailEl.querySelector('#detail-types');
 
-// numero de pokemons que queremos na pokedex
+// aqui temos o numero de pokemons que queremos na pokedex
 const pokemons_number = 15;
 
 
@@ -87,6 +87,6 @@ function backToList() {
     avatarImgEl = document.querySelector('#avatar-img').src = `imgs/pokeball.png`
 }
 
-// apenas chamamos 
+// aqui apenas chamamos o que foi criado
 carregaPokemons()
 
